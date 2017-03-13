@@ -1,0 +1,529 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.profile img {
+  width: 42px;
+  height: 42px; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background: #666378; }
+
+.codrops-header .about img {
+  width: 100%;
+  height: 100%; }
+
+.codrops-header .about {
+  width: 80%;
+  height: 220px;
+  margin: 0 auto;
+  /*background: red;*/
+  border-radius: 4px; }
+  .codrops-header .about .photo {
+    width: 150px;
+    height: 190px;
+    float: left;
+    margin-left: 14px;
+    margin-top: 14px;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 2px #fff; }
+    .codrops-header .about .photo img {
+      width: 100%;
+      height: 100%; }
+  .codrops-header .about .name {
+    width: 100px;
+    height: 80px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 26px;
+    color: #fff;
+    font-family: "微软雅黑"; }
+    .codrops-header .about .name .names {
+      width: 100px;
+      height: 50%;
+      line-height: 25px;
+      text-align: left;
+      font-size: 24px;
+      margin-bottom: 3px; }
+    .codrops-header .about .name .qd {
+      width: 100px;
+      height: 50%;
+      margin-left: 44px;
+      margin-top: -13px; }
+  .codrops-header .about .messeage {
+    width: 310px;
+    height: 180px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    box-sizing: border-box; }
+    .codrops-header .about .messeage .a {
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      color: rgba(0, 0, 0, 0.6);
+      font-family: "微软雅黑";
+      letter-spacing: 1px;
+      text-align: left; }
+      .codrops-header .about .messeage .a .as {
+        width: 30%;
+        height: 100%;
+        float: left; }
+      .codrops-header .about .messeage .a .bs nth-child(2) {
+        width: 70%;
+        height: 100%;
+        float: right;
+        padding-left: 5px; }
+
+.codrops-header .abouts {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #666378;
+  font-size: 36px;
+  font-family: "微软雅黑";
+  margin-bottom: 28px; }
+
+.codrops-header .dddd {
+  width: 100%;
+  height: 60px;
+  margin-top: 25px;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.9); }
+  .codrops-header .dddd .dddds {
+    width: 100%;
+    height: 100%; }
+    .codrops-header .dddd .dddds p {
+      width: 732px;
+      height: 150px;
+      margin: 0 auto; }
+
+.hengxian {
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px dashed #666378;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.codrops-header .express {
+  width: 1000px;
+  height: 650px;
+  margin: 0 auto; }
+  .codrops-header .express .ex-o {
+    width: 100%;
+    height: 50px;
+    font-size: 36px;
+    color: #666378;
+    font-family: "微软雅黑";
+    text-align: center;
+    margin-bottom: 50px; }
+  .codrops-header .express .ex-box {
+    width: 100%;
+    height: 450px; }
+    .codrops-header .express .ex-box .box-one {
+      width: 499px;
+      height: 200px;
+      float: left;
+      position: relative; }
+      .codrops-header .express .ex-box .box-one .ones {
+        position: absolute;
+        right: 50px;
+        top: 82px;
+        width: 50px;
+        height: 50px;
+        font-size: 80px; }
+      .codrops-header .express .ex-box .box-one .onees {
+        left: 50px; }
+      .codrops-header .express .ex-box .box-one .box-one-childs {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        color: #333;
+        font-size: 27px;
+        margin-top: 50px; }
+      .codrops-header .express .ex-box .box-one .box-one-c {
+        width: 100%;
+        height: 50px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 21px; }
+    .codrops-header .express .ex-box .first, .codrops-header .express .ex-box .three, .codrops-header .express .ex-box .five {
+      border-right: 1px solid #fff;
+      border-bottom: 1px solid #fff; }
+    .codrops-header .express .ex-box .four, .codrops-header .express .ex-box .six {
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff; }
+    .codrops-header .express .ex-box .sixs {
+      border-top: 0px; }
+
+.codrops-header .Works {
+  width: 1000px;
+  height: 760px;
+  margin: 0 auto;
+  position: relative; }
+  .codrops-header .Works .zhezhao {
+    position: absolute;
+    left: -174px;
+    top: 230px;
+    width: 1347px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.3); }
+  .codrops-header .Works .work {
+    width: 100%;
+    height: 50px;
+    font-size: 36px;
+    color: #666378;
+    font-family: "微软雅黑";
+    text-align: center;
+    margin-bottom: 50px; }
+  .codrops-header .Works .work-c {
+    width: 100%;
+    height: 699px;
+    margin-left: 45px;
+    cursor: pointer; }
+    .codrops-header .Works .work-c .work-childs {
+      width: 200px;
+      height: 200px;
+      float: left;
+      border-radius: 8px;
+      background: yellow;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      position: relative;
+      overflow: hidden; }
+      .codrops-header .Works .work-c .work-childs a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9; }
+      .codrops-header .Works .work-c .work-childs img {
+        width: 100%;
+        height: 100%; }
+      .codrops-header .Works .work-c .work-childs .p-shaow {
+        width: 100%;
+        height: 233px;
+        position: absolute;
+        border-radius: 4px;
+        top: 50px;
+        background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, 0.9) 100%);
+        transition: top 500ms ease,background 500ms ease; }
+      .codrops-header .Works .work-c .work-childs .texts {
+        width: 100%;
+        height: 20px;
+        font-size: 16px;
+        font-family: "微软雅黑";
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+        transition: bottom 500ms ease; }
+      .codrops-header .Works .work-c .work-childs:hover .p-shaow {
+        top: 0;
+        background: -webkit-linear-gradient(top, transparent 0, rgba(0, 0, 0, 0.9) 100%); }
+      .codrops-header .Works .work-c .work-childs:hover .texts {
+        bottom: 80px; }
+
+.codrops-header .skill {
+  width: 1000px;
+  height: 640px;
+  margin: 0 auto; }
+  .codrops-header .skill .skills {
+    width: 1000px;
+    height: 50px;
+    font-size: 36px;
+    color: #666378;
+    font-family: "微软雅黑";
+    text-align: center;
+    margin-bottom: 50px; }
+  .codrops-header .skill .skillbox {
+    width: 1000px;
+    height: 540px;
+    box-sizing: border-box; }
+    .codrops-header .skill .skillbox .skill-childs {
+      width: 50%;
+      height: 90px;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .codrops-header .skill .skillbox .skill-childs .pro-bar {
+        background: #f7f7f7;
+        height: 4px;
+        margin-top: 50px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+        position: relative; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .pro-bar-title {
+          position: relative;
+          color: #fff;
+          font-size: 15px;
+          font-weight: 300px;
+          top: -28px;
+          z-index: 1;
+          text-align: left; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .pro-number {
+          float: right; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .pro-inner {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 90%;
+          height: 100%;
+          background-color: #1abc9c; }
+          .codrops-header .skill .skillbox .skill-childs .pro-bar .pro-inner:before {
+            content: "";
+            background-color: white;
+            border-radius: 50%;
+            width: 4px;
+            height: 4px;
+            position: absolute;
+            top: 0;
+            right: 1px;
+            z-index: 1; }
+          .codrops-header .skill .skillbox .skill-childs .pro-bar .pro-inner:after {
+            content: "";
+            width: 14px;
+            height: 14px;
+            background-color: inherit;
+            border-radius: 50%;
+            position: absolute;
+            right: -4px;
+            top: -5px; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .two {
+          width: 85%;
+          background-color: #fdba04; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .three {
+          background-color: #049dff; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .four {
+          width: 88%;
+          background-color: #ed687c; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .five {
+          width: 95%;
+          background-color: #B1C75A; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .six {
+          width: 85%;
+          background-color: #b25938; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .seven {
+          width: 89%;
+          background-color: #6c4919; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .eight {
+          width: 80%;
+          background-color: #d8afa7; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .nine {
+          width: 92%;
+          background-color: #fb8072; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .ten {
+          width: 60%;
+          background-color: #9191ad; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .eleven {
+          width: 65%;
+          background-color: #b172b6; }
+        .codrops-header .skill .skillbox .skill-childs .pro-bar .tweleve {
+          width: 90%;
+          background-color: #4e9b86; }
+
+.codrops-header .contact {
+  width: 1000px;
+  height: 353px;
+  margin: 0 auto;
+  position: relative; }
+  .codrops-header .contact .contacts {
+    width: 1000px;
+    height: 50px;
+    font-size: 36px;
+    color: #666378;
+    font-family: "微软雅黑";
+    text-align: center;
+    margin-bottom: 50px; }
+  .codrops-header .contact .contact-box {
+    position: absolute;
+    left: -174px;
+    top: 100px;
+    width: 1347px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    box-sizing: border-box; }
+    .codrops-header .contact .contact-box .contact-c {
+      width: 55%;
+      height: 170px;
+      border: 1px solid #666378;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 64px;
+      margin: auto;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .codrops-header .contact .contact-box .contact-c .tell {
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+        color: #666378;
+        font-family: "微软雅黑";
+        line-height: 50px;
+        text-align: center;
+        margin-top: 15px; }
+      .codrops-header .contact .contact-box .contact-c .email {
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+        color: #666378;
+        font-family: "微软雅黑";
+        line-height: 50px;
+        text-align: center; }
+
+.codrops-header .jianli {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  position: relative;
+  top: -214px;
+  left: 301px;
+  line-height: 40px;
+  cursor: pointer; }
+
+.codrops-header .jian-photo {
+  width: 452px;
+  height: 700px;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 5;
+  transition: transform 1s ease;
+  transform: scale(0, 0); }
+  .codrops-header .jian-photo img {
+    width: 100%;
+    height: 100%; }
+  .codrops-header .jian-photo.active {
+    transform: scale(1, 1); }
+  .codrops-header .jian-photo .button {
+    position: absolute;
+    right: -50px;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    border: 2px dashed #666378;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: #666378;
+    font-size: 24px; }
+
+@media screen and (max-width: 930px) {
+  .hengxian {
+    margin-top: 60px;
+    margin-left: 10px; }
+  .jian-photo .button {
+    top: 75px; }
+  .content .codrops-header .about .messeage {
+    margin-right: -31px; }
+  .content .codrops-header .express {
+    width: 100%; }
+  .content .codrops-header .express .ex-box .box-one {
+    width: 50%; }
+    .content .codrops-header .express .ex-box .box-one .ones {
+      font-size: 70px; }
+    .content .codrops-header .express .ex-box .box-one .box-one-childs {
+      margin-top: 47px;
+      font-size: 19px; }
+    .content .codrops-header .express .ex-box .box-one .box-one-c {
+      font-size: 18px; }
+  .content .codrops-header .Works {
+    width: 100%;
+    height: 610px; }
+    .content .codrops-header .Works .zhezhao {
+      left: -89px;
+      top: 355px;
+      width: 988px;
+      height: 160px; }
+    .content .codrops-header .Works .work-c {
+      width: 100%;
+      height: 510px;
+      margin-left: 101px; }
+      .content .codrops-header .Works .work-c .work-childs {
+        width: 150px;
+        height: 150px; }
+        .content .codrops-header .Works .work-c .work-childs:hover .texts {
+          bottom: 50px; }
+  .content .codrops-header .skill {
+    width: 100%; }
+    .content .codrops-header .skill .skills {
+      width: 100%; }
+    .content .codrops-header .skill .skillbox {
+      width: 100%;
+      margin-left: 10px; }
+      .content .codrops-header .skill .skillbox .skill-childs {
+        padding-left: 40px;
+        padding-right: 20px; }
+  .content .codrops-header .contact {
+    width: 100%; }
+    .content .codrops-header .contact .contacts {
+      width: 100%; }
+    .content .codrops-header .contact .contact-box {
+      width: 1074px; }
+      .content .codrops-header .contact .contact-box .contact-c {
+        left: 123px; } }
+
+@media screen and (max-width: 600px) {
+  .content .codrops-header .about {
+    height: 438px; }
+    .content .codrops-header .about .photo {
+      width: 140px;
+      height: 180px;
+      margin-left: 90px; }
+      .content .codrops-header .about .photo .names {
+        margin-left: -6px; }
+      .content .codrops-header .about .photo .qd {
+        margin-left: 62px;
+        margin-top: 8px; }
+    .content .codrops-header .about .messeage {
+      margin-right: 25px;
+      margin-top: 40px; }
+  .content .codrops-header .dddd .dddds p {
+    width: 392px;
+    height: 200px;
+    margin-left: 71px;
+    letter-spacing: 1px;
+    font-size: 16px; }
+  .content .codrops-header .express .ex-box .box-one .box-one-childs {
+    margin-top: 62px;
+    font-size: 14px; }
+  .content .codrops-header .express .ex-box .box-one
+.box-one-c {
+    font-size: 15px; }
+  .content .codrops-header .Works {
+    height: 1270px; }
+    .content .codrops-header .Works .zhezhao {
+      opacity: 0; }
+    .content .codrops-header .Works .work-c {
+      height: 1170px;
+      margin-left: 82px; }
+      .content .codrops-header .Works .work-c .work-childs {
+        width: 170px;
+        height: 170px; }
+      .content .codrops-header .Works .work-c .eleven, .content .codrops-header .Works .work-c .tweleve {
+        margin-top: 30px; }
+  .content .codrops-header .contact .contact-box {
+    width: 748px; }
+    .content .codrops-header .contact .contact-box .contact-c {
+      left: 152px; }
+  .content .codrops-header .jianli {
+    top: -234px;
+    left: 417px; }
+  .content .codrops-header .jian-photo .button {
+    top: 75px;
+    height: 600px; } }

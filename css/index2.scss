@@ -1,0 +1,236 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+@mixin useRem($device-size){
+	$device-size-list:$device-size,414px,412px,380px,375px,360px,320px,314px,312px;
+	@each $size in $device-size-list{
+	 @media screen and (max-width:$size){
+	 html{
+	  font-size:100px*$size/$device-size;
+	 }
+	 }
+	}
+}
+@include useRem(1080px);
+.menu-button::before{
+	width:40px;
+	height:40px;
+	top:-0.2em;
+	left:-0.2em;
+}
+.content .codrops-header .about{
+	width:100%;
+	.photo{
+		margin-top: 32px;
+		margin-left: 0;
+		width:100px;
+		height:150px;
+	}
+	.name{
+		width:30%;
+		.names{
+			width:100%;
+			font-size: 20px;
+		}
+	}
+	.name .qd{
+		margin-top:0;
+		font-size:18px;
+	}
+	.messeage{
+		margin-right: 0;
+		margin-top:40px;
+	}
+	.messeage{
+			width:100%;
+			height:180px;
+			float:right;
+			margin-top:40px;
+			box-sizing:border-box;
+			.a{
+				width:100%;
+				height:45px;
+				line-height: 45px;
+				color: rgba(0,0,0,.6);
+				font-family: "微软雅黑";
+				letter-spacing: 1px;
+				text-align: left;
+				font-size:15px; 
+			    .as{
+					width:30%;
+					height:100%;
+					float:left;
+				}
+				.bs nth-child(2){
+					width:70%;
+					height:100%;
+					float:right;
+					padding-left: 5px;
+
+				}
+			}
+	}
+}
+.content .codrops-header .abouts{
+	height:50px;
+	line-height: 50px;
+	font-size: 30px;
+}
+.content .codrops-header .dddd{
+	height:181px;
+	.dddds{
+	width:100%;
+	height:100%;
+	p{
+		width:100%;
+		height:100%;
+		margin-left: 0;
+		font-size: 14px;
+	}
+}
+}
+.content .codrops-header .hengxian{
+	margin-top:-50px;
+	margin-bottom:50px;
+}
+.content .codrops-header .express{
+	.ex-o{
+		height:50px;
+		line-height: 50px;
+		font-size: 30px;
+	}
+	.ex-box{
+		height:480px;
+	}
+	.ex-box .box-one{
+		height:160px;
+		.ones{
+			font-size: 62px;
+			top:50px;
+			right:37px;
+		}
+		.onees{
+			left:25px;
+		}
+		.box-one-childs{
+			margin-top:14px;
+			font-size: 12px;
+			line-height: 21px;
+		}
+		.box-one-c{
+			font-size: 10px;
+			text-indent: 10px;
+		}
+	}
+	
+}
+.content .codrops-header .Works{
+	height:418px;
+	width:100%;
+	.work{
+		height:50px;
+		line-height: 50px;
+		font-size: 30px;
+	}
+	.work-c{
+		margin-left: 11px;
+		height:254px;
+		.work-childs{
+			width:25%;
+			height:67px;
+			margin-right:22px;
+			margin-bottom:22px;
+			border-radius: 13px;
+			a{
+				width:100%;
+				height:100%;
+				display: block;
+				position:absolute;
+				left:0;
+				top:0;
+				z-index:9;
+			}
+			.p-shaow{
+				width:100%;
+				height:100%;
+			}
+			.texts{
+				font-size: 12px;
+				bottom:13px;
+				transition:bottom 500ms ease;
+			}
+			&:hover{
+				.texts{
+					bottom:28px;
+				}
+			}
+		}
+		.five{
+			margin-left:22px;
+		}
+		.nine{
+			margin-left:22px;
+		}
+		.ten,.eleven,.tweleve{
+			display: none;
+		}
+	}
+}
+
+.content .codrops-header .skill{
+	height:810px;
+	.skills{
+		height:50px;
+		line-height: 50px;
+		font-size: 30px;
+	}
+	.skillbox{
+		margin-left:0;
+		.skill-childs{
+			width:100%;
+			margin-top:-34px;
+			padding-left: 40px;
+			padding-right:20px;
+		}
+	}
+}
+.content .codrops-header .contact{
+	height:216px;
+	.contacts{
+		height:50px;
+		line-height: 50px;
+		font-size: 30px;
+	}
+	.contact-box{
+		width:135%;
+		margin-left:135px;
+		.contact-c{
+			left:8px;
+			width:80%;
+			top:34px;
+			height:133px;
+			.tell,.email{
+				font-size: 13px;
+			}
+			.email{
+				line-height: 2px;
+			}
+		}
+	}
+}
+.content .codrops-header .jianli{
+	top:-750px;
+	left:192px;
+}
+.content .codrops-header .jian-photo{
+	width:275px;
+	height:457px;
+	left:-53px;
+	.button{
+		top:5px;
+		width:40px;
+		height:40px;
+	}
+}

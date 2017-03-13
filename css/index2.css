@@ -1,0 +1,212 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 38.33333px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 38.14815px; } }
+
+@media screen and (max-width: 380px) {
+  html {
+    font-size: 35.18519px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 34.72222px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33.33333px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 29.62963px; } }
+
+@media screen and (max-width: 314px) {
+  html {
+    font-size: 29.07407px; } }
+
+@media screen and (max-width: 312px) {
+  html {
+    font-size: 28.88889px; } }
+
+.menu-button::before {
+  width: 40px;
+  height: 40px;
+  top: -0.2em;
+  left: -0.2em; }
+
+.content .codrops-header .about {
+  width: 100%; }
+  .content .codrops-header .about .photo {
+    margin-top: 32px;
+    margin-left: 0;
+    width: 100px;
+    height: 150px; }
+  .content .codrops-header .about .name {
+    width: 30%; }
+    .content .codrops-header .about .name .names {
+      width: 100%;
+      font-size: 20px; }
+  .content .codrops-header .about .name .qd {
+    margin-top: 0;
+    font-size: 18px; }
+  .content .codrops-header .about .messeage {
+    margin-right: 0;
+    margin-top: 40px; }
+  .content .codrops-header .about .messeage {
+    width: 100%;
+    height: 180px;
+    float: right;
+    margin-top: 40px;
+    box-sizing: border-box; }
+    .content .codrops-header .about .messeage .a {
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      color: rgba(0, 0, 0, 0.6);
+      font-family: "微软雅黑";
+      letter-spacing: 1px;
+      text-align: left;
+      font-size: 15px; }
+      .content .codrops-header .about .messeage .a .as {
+        width: 30%;
+        height: 100%;
+        float: left; }
+      .content .codrops-header .about .messeage .a .bs nth-child(2) {
+        width: 70%;
+        height: 100%;
+        float: right;
+        padding-left: 5px; }
+
+.content .codrops-header .abouts {
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px; }
+
+.content .codrops-header .dddd {
+  height: 181px; }
+  .content .codrops-header .dddd .dddds {
+    width: 100%;
+    height: 100%; }
+    .content .codrops-header .dddd .dddds p {
+      width: 100%;
+      height: 100%;
+      margin-left: 0;
+      font-size: 14px; }
+
+.content .codrops-header .hengxian {
+  margin-top: -50px;
+  margin-bottom: 50px; }
+
+.content .codrops-header .express .ex-o {
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px; }
+
+.content .codrops-header .express .ex-box {
+  height: 480px; }
+
+.content .codrops-header .express .ex-box .box-one {
+  height: 160px; }
+  .content .codrops-header .express .ex-box .box-one .ones {
+    font-size: 62px;
+    top: 50px;
+    right: 37px; }
+  .content .codrops-header .express .ex-box .box-one .onees {
+    left: 25px; }
+  .content .codrops-header .express .ex-box .box-one .box-one-childs {
+    margin-top: 14px;
+    font-size: 12px;
+    line-height: 21px; }
+  .content .codrops-header .express .ex-box .box-one .box-one-c {
+    font-size: 10px;
+    text-indent: 10px; }
+
+.content .codrops-header .Works {
+  height: 418px;
+  width: 100%; }
+  .content .codrops-header .Works .work {
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px; }
+  .content .codrops-header .Works .work-c {
+    margin-left: 11px;
+    height: 254px; }
+    .content .codrops-header .Works .work-c .work-childs {
+      width: 25%;
+      height: 67px;
+      margin-right: 22px;
+      margin-bottom: 22px;
+      border-radius: 13px; }
+      .content .codrops-header .Works .work-c .work-childs .p-shaow {
+        width: 100%;
+        height: 100%; }
+      .content .codrops-header .Works .work-c .work-childs .texts {
+        font-size: 12px;
+        bottom: 13px;
+        transition: bottom 500ms ease; }
+      .content .codrops-header .Works .work-c .work-childs:hover .texts {
+        bottom: 28px; }
+    .content .codrops-header .Works .work-c .five {
+      margin-left: 22px; }
+    .content .codrops-header .Works .work-c .nine {
+      margin-left: 22px; }
+    .content .codrops-header .Works .work-c .ten, .content .codrops-header .Works .work-c .eleven, .content .codrops-header .Works .work-c .tweleve {
+      display: none; }
+
+.content .codrops-header .skill {
+  height: 810px; }
+  .content .codrops-header .skill .skills {
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px; }
+  .content .codrops-header .skill .skillbox {
+    margin-left: 0; }
+    .content .codrops-header .skill .skillbox .skill-childs {
+      width: 100%;
+      margin-top: -34px;
+      padding-left: 40px;
+      padding-right: 20px; }
+
+.content .codrops-header .contact {
+  height: 216px; }
+  .content .codrops-header .contact .contacts {
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px; }
+  .content .codrops-header .contact .contact-box {
+    width: 135%;
+    margin-left: 135px; }
+    .content .codrops-header .contact .contact-box .contact-c {
+      left: 8px;
+      width: 80%;
+      top: 34px;
+      height: 133px; }
+      .content .codrops-header .contact .contact-box .contact-c .tell, .content .codrops-header .contact .contact-box .contact-c .email {
+        font-size: 13px; }
+      .content .codrops-header .contact .contact-box .contact-c .email {
+        line-height: 2px; }
+
+.content .codrops-header .jianli {
+  top: -750px;
+  left: 192px; }
+
+.content .codrops-header .jian-photo {
+  width: 275px;
+  height: 457px;
+  left: -53px; }
+  .content .codrops-header .jian-photo .button {
+    top: 5px;
+    width: 40px;
+    height: 40px; }
